@@ -101,6 +101,8 @@ def processCommand(c):
         webbrowser.open("https://linkedin.com")
     elif "open instagram" in c:
         webbrowser.open("https://instagram.com")
+    elif "open whatsapp" in c:
+        webbrowser.open("https://whatsapp.com")
     elif c.startswith("play"):
         song = " ".join(c.split(" ")[1:])
         if song in musicLibrary.music:
